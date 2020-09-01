@@ -13,7 +13,7 @@ class ResultSpider(scrapy.Spider):
     # start_urls = ['http://thongtindaotao.sgu.edu.vn/']
 
     def __init__(self):
-        self.driver = webdriver.Chrome('D:\chromedriver.exe')
+        self.driver = webdriver.Chrome('chromedriver.exe')
 
     def start_requests(self):
         with open('data\\student.json', 'r', encoding='utf-8') as f:
