@@ -20,6 +20,6 @@ Spider for take list of students who have class in semester. Run this command to
 
 Spider for take student's last point from those students in file student.json. Run this command to crawl data into data\point.json file
 
-> scrapy crawl tkb
+> scrapy crawl result
 
 Besides it, testjson.json file sorts all student's rank or student's rank of a specific class and store them into json file.
