@@ -36,7 +36,6 @@ class ResultSpider(scrapy.Spider):
         try:
             all_info = self.driver.find_element_by_xpath(
                 '//*[@id="ctl00_ContentPlaceHolder1_ctl00_lnkChangeview2"]')
-            # self.logger.info('stop 2 s')
             all_info.click()
 
             sel = Selector(text=self.driver.page_source)
@@ -45,7 +44,6 @@ class ResultSpider(scrapy.Spider):
             point = row[amount -
                         3].xpath('.//td/span[2]/text()').extract_first()
             ntc = row[amount - 1].xpath('.//td/span[2]/text()').extract_first()
-            # self.driver.close()
             yield {
                 'masv': student['masv'],
                 'name': student['name'],
