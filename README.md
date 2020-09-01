@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Scrapy Selenium
 
 ## Scrapy document
@@ -32,6 +31,3 @@ Besides it, testjson.json file sorts all student's rank or student's rank of a s
 ### Note
 
 chromedriver.exe file is chrome driver for selenium's webdriver to connect to chrome browser.
-=======
-# scrapy_selenium_sgu
->>>>>>> 43a5236ef730bce8525674b3c29d49af0950dadc
