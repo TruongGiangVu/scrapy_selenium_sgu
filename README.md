@@ -2,8 +2,8 @@
 
 ## Scrapy document
 
-[Document](https://docs.scrapy.org/en/latest/)
-[SGU Website](http://thongtindaotao.sgu.edu.vn/)
+- [Document](https://docs.scrapy.org/en/latest/)
+- [SGU Website](http://thongtindaotao.sgu.edu.vn/)
 
 ## Library requirement
 
