@@ -1,5 +1,9 @@
 # Scrapy Selenium
 
+## Scrapy document
+
+[Document](https://docs.scrapy.org/en/latest/)
+
 ## Library requirement
 
 - Scrapy
@@ -23,3 +27,7 @@ Spider for take student's last point from those students in file student.json. R
 > scrapy crawl result
 
 Besides it, testjson.json file sorts all student's rank or student's rank of a specific class and store them into json file.
+
+### Note
+
+chromedriver.exe file is chrome driver for selenium's webdriver to connect to chrome browser.
